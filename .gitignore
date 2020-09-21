@@ -1,0 +1,49 @@
+# Target files
+*.pdf
+
+# TeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.pyg
+*.toc
+.texmfcache/
+
+# Emacs specific files
+\#*
+.#*
+*~
+auto
+*.rel
+
+# Visual Studio Code specific files
+.vscode
+.*.swp
+.*.swo
+
+# Temp files created by other tools
+Icon*
+.sync/
+*.synctex*
+*.run.xml
+*_latexmk
+.fuse_hidden*
+*.pid
+*.db-journal
+*.fop
+_minted-*/

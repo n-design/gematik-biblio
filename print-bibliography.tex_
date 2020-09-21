@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\usepackage[defernumbers=true]{biblatex}
+
+\DeclareBibliographyCategory{cited}
+\AtEveryCitekey{\addtocategory{cited}{\thefield{entrykey}}}
+
+\addbibresource{\jobname.bib}
+
+\nocite{*}
+
+\begin{document}
+
+\printbibliography[title={gematik Spezifikation},notcategory=cited]
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
