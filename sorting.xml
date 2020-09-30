@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <sortingtemplate name="tool">
+    <sort order="1">
+      <sortitem order="1">label</sortitem>
+    </sort>
+    <sort order="2">
+      <sortitem order="1">version</sortitem>
+    </sort>
+    <sort order="3">
+      <sortitem order="1">year</sortitem>
+    </sort>
+  </sortingtemplate>
+</config>
